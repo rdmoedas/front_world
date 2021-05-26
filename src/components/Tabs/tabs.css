@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 :root {
     --yellow: #fbe7c6;
@@ -41,36 +40,3 @@
   .tabs li:hover {
     background-color: var(--mint);
   }
-=======
-:root {
-  --yellow: #fbe7c6;
-  --mint: #b4f8c8;
-  --blue: #a0e7e5;
-  --pink: #ffaebc;
-}
-
-.tabs {
-  padding: 0;
-  display: flex;
-}
-
-.tabs li {
-  border-radius: 16px;
-  background-color: var(--yellow);
-  cursor: pointer;
-  padding: 16px 24px;
-  font-weight: bold;
-  list-style: none;
-  margin-right: 16px;
-  min-width: 100px;
-  text-align: center;
-}
-
-.tabs li.active {
-  background-color: var(--blue);
-}
-
-.tabs li:hover {
-  background-color: var(--mint);
-}
->>>>>>> 4edbd139a7364ed251f56167cf0dcad3c16fd67e
