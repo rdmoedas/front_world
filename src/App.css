@@ -1,12 +1,9 @@
-.App {
-  text-align: center;
-}
-
 .country-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -42,3 +39,9 @@
   --blue: #a0e7e5;
   --pink: #ffaebc;
 }
+=======
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+>>>>>>> 4edbd139a7364ed251f56167cf0dcad3c16fd67e

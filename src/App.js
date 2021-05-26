@@ -2,7 +2,11 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import "./App.css";
 import Card from "./components/Card";
+<<<<<<< HEAD
 import Tabs from "./components/Tabs"
+=======
+import Tabs from "./components/Tabs";
+>>>>>>> 4edbd139a7364ed251f56167cf0dcad3c16fd67e
 import worldService from "./services/world";
 
 function App() {
@@ -37,9 +41,12 @@ function App() {
 
   return (
     <main className="container">
+      <section>
+        <Tabs />
+      </section>
       <div className="country-wrapper">
         {countries.map(function (country) {
-          return <Card country={country} />;
+          return <Card key={country.Name} country={country} />;
         })}
       </div>
     </main>
