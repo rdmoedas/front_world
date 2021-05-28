@@ -20,6 +20,7 @@ function Tabs(){
             <li id="city" onClick={onClickTab} className={ activeTab === 'city' ? 'active' : null }>
             Cidades
             </li>
+        {activeTab}
         </ul>
     );
 }

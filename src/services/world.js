@@ -7,5 +7,11 @@ export default {
     const response = await fetch(`${API_URL}/countries`);
     const responseJson = response.json();
     return responseJson;
+  },
+  getCities: async function getCities() {
+
+    const response = await fetch(`${API_URL}/cities`);
+    const responseJson = response.json();
+    return responseJson;
   }
 }

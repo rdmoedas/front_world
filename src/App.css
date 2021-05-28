@@ -38,3 +38,40 @@
   --blue: #a0e7e5;
   --pink: #ffaebc;
 }
+
+.cardSection {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  /* height: 590px; */
+}
+
+.container {
+  height: auto;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.search input {
+  width: 80%;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.search .btn {
+  background-color: rgb(103, 103, 255);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.search .btn:hover {
+  background-color: rgb(68, 68, 165);
+}

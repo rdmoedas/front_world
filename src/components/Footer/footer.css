@@ -1,0 +1,29 @@
+footer {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    height: 80px;
+    color: #fff;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: #fff;
+}
+
+.about {
+    width: 60%;
+}
+
+.socialMedia {
+    display: flex;
+    flex-flow: column;
+    padding-right: 20px;
+    margin-right: 20px;
+}
