@@ -19,6 +19,9 @@
   .tabs {
     padding: 0;
     display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    /* flex-wrap: wrap; */
   }
   
   .tabs li {
@@ -29,7 +32,9 @@
     font-weight: bold;
     list-style: none;
     margin-right: 16px;
-    min-width: 100px;
+    min-width: 50px;
+    max-width: 100px;
+    flex-grow: 1;
     text-align: center;
   }
   

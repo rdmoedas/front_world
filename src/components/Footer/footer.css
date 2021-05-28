@@ -6,11 +6,10 @@ footer {
     padding: 20px 20px;
     height: 80px;
     color: #fff;
-    position: fixed;
-    right: 0px;
-    left: 0px;
-    bottom: 0;
-    width: 100%;
+    /* position: fixed; */
+    /* right: 0px; */
+    /* left: 0px; */
+    /* bottom: 0; */
 }
 
 footer a{
@@ -19,11 +18,17 @@ footer a{
 
 .about {
     width: 60%;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+@media  (max-width: 550px) {
+    .about {
+        display: none;
+    }
 }
 
 .socialMedia {
     display: flex;
     flex-flow: column;
-    padding-right: 20px;
-    margin-right: 20px;
 }

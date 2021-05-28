@@ -56,7 +56,7 @@ function App() {
         </div>
       </section>
       <Tabs />
-      <section className="cardSection">
+      <section className="">
       <div className="country-wrapper">
         {countries.map(function (country) {
           return <Card key={country.Name} country={country} />;
